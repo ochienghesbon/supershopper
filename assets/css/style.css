@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navb{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.aboutus{
+    background-color: lightgrey;
+}
+.hesbon{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.dennis{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.divalemba{
+  display: flex;
+  margin-left: 100px;
+    justify-content: space-around;
+}
+.nicholas{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.Stories{
+    display: flex;
+    background-color: lightgray;
+    
+    
+    
+}
+.aboutus img{
+    width: 9rem;
+}
+.Stories img{
+    width: 9rem;
+    justify-content: space-between;
+    padding: 2rem;
+}
+p.pstory{
+    font-weight: bolder;
+    font-style: italic;
+}
+p.us{
+    position: relative;
+    margin-top: 80px;
+    font-size: large;
+    font-style: oblique;
+}
