@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/pages/page/checkout-page/assets/style.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <h1>Summary and Checkout</h1>
+    <div id="summaryCheckout"> 
+        <div id="shoppingCart">
+            <nav>
+                <img src="/assets/pages/page/sign-up/assets/images/Supashopper (1).jpg" alt="" width="40px" height="40px">
+            </nav>
+            <h2>Order summary</h2>
+            <table id="table">
+                <tr>
+                    <td>Order</td>
+                    <td>Quantity</td>
+                    <td>Price</td>
+                </tr>
+                <tr>
+                    <td id="product">"</td><td id="quantity">"</td><td id="price">"</td>
+                </tr>
+                <tr>
+                    <td id="product">"</td><td id="quantity">"</td><td id="price">"</td>
+                </tr>
+                <tr>
+                    <td id="product">"</td><td id="quantity">"</td><td id="price">"</td>
+                </tr>
+                <tr>
+                    <td id="product4">"</td><td id="quantity">"</td><td id="price">"</td>
+                </tr>
+                <tr>
+                    <td id="product5">"</td><td id="quantity">"</td><td id="price">"</td>
+                </tr>
+               
+            </table>
+            <button onclick="addBread()">click me</button>
+            <button onclick="addMilk()">click me 2</button>
+            <p><strong>Total = <span>""</span></strong></p>
+        </div>
+        <div id="checkout">
+            <h2>Payment Details</h2>
+            <form action="" name="paymentForm">
+                <label for="name">Name</label><br>
+                <input type="text" name="name"><br>
+                <label for="number">Phone Number</label><br>
+                <input type="text" name="number"><br>
+                <label for="card">Card Number</label><br>
+                <input type="text" name="card"><br>
+                <label for="address">Address</label><br>
+                <input type="text" name="address">  
+            </form>
+            <button id="completeOrder" onclick="completeOrder()">Complete Order</button>
+        </div>   
+    </div>
+ <script src="/assets/pages/page/checkout-page/assets/checkout.js"></script>   
+</body>
+</html>
