@@ -24,7 +24,7 @@ body{
 }
 .userSignUp{
     width: 40%;
-    background-image: linear-gradient(to right, rgba(128, 124, 124, 0.801), rgba(255, 255, 255, 0.735));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.801), rgba(0, 255, 234, 0.527));
     margin-left: 5px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -42,13 +42,15 @@ body{
    font-family: 'Gugi', cursive;
 }
 .userSignUp>button{
-    font-size: 20px;
-    margin-top: 50px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     float: right;
     margin-right: 30px;
     padding: 10px;
     border-radius: 20px;
     border: 1px solid lightgray;
-    background-color: rgba(250, 235, 215, 0.612);
-    font-style: italic;
+    background-color: rgba(246, 243, 240, 0.982);
+    font-family: 'Water Brush', cursive;
+
 }
