@@ -4,7 +4,7 @@ function addBread() {
     var quantity = document.getElementById("quantity1")
     var price = document.getElementById("price1")
 
-    product.innerText = ("Bread");
+    product.innerHTML = ("Bread");
     quantity.innerText = (1);
     price.innerText = (55 + " ksh")
 }
@@ -89,3 +89,5 @@ function addFridge() {
     quantity.innerText = (1);
     price.innerText = (87,694 + " ksh")
 }
+
+
