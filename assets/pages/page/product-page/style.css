@@ -723,6 +723,7 @@
   background-color:rgba(174, 130, 77, 1);
   color: black;
   padding: 10px;
+  border-radius: 12px;
 width: 100px;
   font-size: 14px;
   border: none;
@@ -924,8 +925,9 @@ width: 100px;
  /*Footer*/
  #foot{
    display: flex;
-  justify-content: center;
+  justify-content: stretch;
   background-color: black;
+  padding-left: 600px;
  }
  .ft1{
    padding-top: 50px;
@@ -933,16 +935,84 @@ width: 100px;
    background-color: black;
    color: white;
    font-size: large;
+   padding: 10px; 
+ }
+ .ft1:hover{
+   background-color: white;
+   color: black;
+ }
+
+ .ft2{
+   padding-top: 50px;
+   border: none;
+   background-color: black;
+   color: white;
+   font-size: large;
+   padding: 10px;
+   padding-left: 50px;
+
+  
    
  }
- 
+ .ft2:hover{
+   background-color: white;
+   color: black;
+ }
+ .ft3{
+   padding-top: 50px;
+   border: none;
+   background-color: black;
+   color: white;
+   font-size: large;
+   padding: 10px; 
+   padding-left: 50px;
+   
+ }
+  .ft3:hover{
+   background-color: white;
+   color: black;
+ }
+
+ .ft4{
+   padding-top: 50px;
+   border: none;
+   background-color: black;
+   color: white;
+   font-size: large;
+   padding: 10px; 
+   padding-left: 50px;
+   
+ }
+  .ft4:hover{
+   background-color: white;
+   color: black;
+ }
+ .ft5{
+   padding-top: 50px;
+   border: none;
+   background-color: black;
+   color: white;
+   font-size: large;
+   padding: 10px; 
+   padding-left: 50px;
+   
+ }
+  .ft5:hover{
+   background-color: white;
+   color: black;
+ }
+
  .fol{
    padding-top: 20px;
    color: white;
-   justify-content: center;
+   padding-left: 160px;
    font-size: large;
  }
 
- .loz{
-   
+ .loz1{
+ padding-left: 50px;
+ }
+
+ .loz2{
+   padding-left: 70px;
  }
