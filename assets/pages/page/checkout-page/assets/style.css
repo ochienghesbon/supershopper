@@ -1,0 +1,101 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
+    background-image: url("/assets/pages/page/sign-up/assets/images/pexels-竟傲-汤-5380919.jpg");
+    background-position: center;
+    background-size: cover;
+}
+body>h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    color: white;
+    font-family: 'Zen Dots', cursive;
+}
+#summaryCheckout{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+    margin: 150px;
+    margin-top: 100px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+nav>img{
+    border-top-left-radius: 20px;
+}
+#shoppingCart{
+    width: 50%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 30px;
+}
+#table{
+    margin: 25px;
+    border: 1px solid black;
+    width: 90%;
+    background-color: whitesmoke;
+    height: 50vh;
+    
+    
+}
+#shoppingCart>h2{
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: 'Macondo', cursive;
+}
+#shoppingCart>p{
+    font-size: 30px;
+    float: right;
+    margin-right: 50px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+
+#checkout{
+    background-color: rgba(188, 234, 234, 0.816);
+    width: 50%;
+    margin-left: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+    
+}
+#checkout>h2{
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: 'Macondo', cursive;
+}
+#checkout>form{
+    margin: 60px;
+}
+#checkout>form>label{
+    padding: 30px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+#checkout>form>input{
+    margin: 20px;
+    padding: 4px;
+    width: 250px;
+    margin-bottom: 10px;
+    background-color:whitesmoke;
+}
+#checkout>form>label{
+    font-size: 15px;
+    font-style: italic;
+}
+#shoppingCart{
+    background-color:rgba(188, 234, 234, 0.816);
+}
+#completeOrder{
+    float: right;
+    font-size: 20px;
+    background-color: rgba(211, 211, 211, 0.735);
+    border: 1px solid black;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+#completeOrder:hover{
+    background-color: rgba(128, 128, 128, 0.653);
+}
