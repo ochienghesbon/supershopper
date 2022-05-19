@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     box-sizing:border-box ;
+}
+body{
+    font-family: sans-serif;
+    
+}
+nav{
+    background-image: url(../images/qwetu.jpg);
+    background-size: cover;
+    padding: 5px 20px;
+    height: 20vh;
+    
+
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.navb li{
+font-size: 20px;
+}
+li{
+    display: inline;
+    padding-left: 300px;
+    
+}
+
+#aboutus{
+    /* background-image: url(../images/arizona.jpg); */
+    background-color: #49DFE6;
+    margin-top: 20px;
+    
+}
+#itemid{
+    margin-top: 30px;
+    padding-left: 37rem;
+}
+p.us{
+        color: blue;
+}
+.hesbon{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.dennis{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.divalemba{
+  display: flex;
+  margin-left: 100px;
+    justify-content: space-around;
+}
+.nicholas{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+ #Stories{
+    display: flex;
+    background-color: #FFB94D;
+    margin-top: 20px;
+    
+    
+    
+}
+#aboutus img{
+    width: 9rem;
+}
+#Stories img{
+    width: 9rem;
+    justify-content: space-between;
+    padding: 2rem;
+}
+p.pstory{
+    font-weight: bolder;
+    font-style: italic;
+    color: #081A1A;
+}
+p.us{
+    position: relative;
+    margin-top: 80px;
+    font-size: large;
+    font-style: oblique;
+    color: #081A1A;
+}
+#storiesitem{
+    margin-top: 20px;
+    padding-left: 37rem;
+}
+/* reviewsection */
+.reviewsection{
+    margin-top: 20px;
+    padding-left: 30rem;
+}
+.firstR{
+    margin-top: 20px;
+    padding-left: 200px; 
+}
+.secondR{
+    margin-top: 20px;
+    padding-left: 200px;
+}
+.thirdR{
+    margin-top: 20px;
+    padding-left: 200px;
+}
+.thankR{
+    margin-top: 20px;
+    padding-left: 300px;
+}
+#reviews{
+    background-color: black;
+    color: #B5FC58;
+    font-style: calc();
+}
