@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("/assets/pages/page/sign-up/images/pexels-竟傲-汤-5380919.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.signUp{
+    display: flex; 
+    margin: 130px;
+    margin-left: 280px;
+    
+    
+}
+.superShopper{
+    width: 40%;
+    height: 56vh;
+    border-radius: 20px;
+}
+.superShopper>img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.userSignUp{
+    width: 40%;
+    background-image: linear-gradient(to right, rgba(128, 124, 124, 0.801), rgba(255, 255, 255, 0.735));
+    margin-left: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.userSignUp>h2{
+    font-size: 50px;
+    padding-left: 75px;
+    opacity: 1;
+    font-family: 'Henny Penny', cursive;
+}
+.userSignUp>form{
+    padding-left: 75px;
+   font-size: 25px;
+   font-family: 'Gugi', cursive;
+}
+.userSignUp>button{
+    font-size: 20px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    background-color: rgba(250, 235, 215, 0.612);
+    font-style: italic;
+}
