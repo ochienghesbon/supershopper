@@ -70,8 +70,7 @@ body{
     position: absolute;
     top: 35%;
     transform: translateY(-50%);
-    text-align: center;
-    color: brown;
+    color: rgb(246, 198, 6);
 }
 
 .content h1{
