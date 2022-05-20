@@ -56,7 +56,7 @@ nav>img{
 
 
 #checkout{
-    background-color: rgba(188, 234, 234, 0.816);
+    background-color: rgba(229, 235, 55, 0.63);
     width: 50%;
     margin-left: 20px;
     border-top-right-radius: 30px;
@@ -88,7 +88,7 @@ nav>img{
     font-style: italic;
 }
 #shoppingCart{
-    background-color:rgba(188, 234, 234, 0.816);
+    background-color: rgba(229, 235, 55, 0.63);
 }
 #completeOrder{
     float: right;

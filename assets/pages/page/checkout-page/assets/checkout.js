@@ -89,5 +89,12 @@ function addFridge() {
     quantity.innerText = (1);
     price.innerText = (87,694 + " ksh")
 }
+function landing() {
+    window.location.assign("/assets/pages/page/landing-page/index.html");
+   }
 
+function completeOrder(){
+    alert("Thank you for choosing Supashopper");
+    landing();
+}
 

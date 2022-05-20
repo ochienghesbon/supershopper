@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* home-page section */
-
 body{
     width: 100%;
     height: 140vh;
@@ -20,7 +18,7 @@ body{
 }
 .navbar .logo{
     color: #717171;
-    font-size: 33px;
+    font-size: 25px;
 }
 #dd{
     color: brown;
@@ -30,7 +28,6 @@ body{
 .navbar.logo h2{
     display: inline;
 }
-
 .navbar{
     width: 85%;
     margin: auto;
@@ -39,14 +36,6 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-
-.navbar img{
-    height: 190px;
-    width: 160px;
-    transform: rotate(-20deg);
-    
-}
-
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -55,7 +44,9 @@ body{
 }
 
 .navbar ul li a{
-    color: #fff;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -64,7 +55,7 @@ body{
     content: '';
     height: 3px;
     width: 0;
-    background: #009688;
+    background: brown;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -77,24 +68,29 @@ body{
 .content{
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 35%;
     transform: translateY(-50%);
-    text-align: center;
-    color: rgb(197, 122, 52);
+    color: rgb(246, 198, 6);
 }
 
 .content h1{
     font-size: 70px;
     margin-top: 80px;
-
 }
 
 .content p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
-    color: rgb(245, 239, 239);
+    color: black;
     font-size: 30px;
+}
+
+.content .t-1{
+    font-size: 32px;
+}
+.content .t-2{
+    font-size: 25px;
 }
 
 button{
@@ -104,16 +100,16 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #009688;
+    border: 2px solid brown;
     background: transparent;
-    color: #fff;
+    color: black;
     cursor: pointer;
     position: relative;
     overflow: hidden;
 }
 
 .btn{
-    background: #009688;
+    background: brown;
     height: 100%;
     width: 0%;
     border-radius: 25px;
@@ -121,7 +117,7 @@ button{
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.2s;
 
 }
 
@@ -141,22 +137,26 @@ button:hover{
     font-size: 50px;
     margin-left: 40%;
     margin-bottom: 40px;
-    padding-top: 250px;
+    padding-top: 100px;
     
 }
 
 .maincontent .yummi p{
-    margin-left: -400px;
+    margin-left: -200px;
 }
 .slideshow-container {
     position: relative;
     padding-top: 10px;
-    margin-left: 350px;
+    margin-left: 360px;
+}
+.discount{
+    float: right;
+    padding-top: 140px;
+    font-size: 30px;
 }
 .mySlides{
-    width: 2000px;
-    margin-left: -250px;
-
+    width: 1200px;
+    margin-left: -200px;
 }
 
 .text {
@@ -167,10 +167,10 @@ button:hover{
     margin-left: 200px;
 }
 .dot {
+    align-items: center;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
+    background-color: brown;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -201,6 +201,9 @@ button:hover{
 .paraphrase{
     width: 100%;
     position: relative;
+    padding-left: 150px;
+    padding-right: 150px;
+    
 }
 
 .paraphrase h2{
@@ -220,9 +223,6 @@ button:hover{
     font-size: 30px;
 }
 
-.paraphrase #runaway{
-    padding-left: 30px;
-}
 
 .footer{
     margin-top: 150px;
@@ -274,8 +274,22 @@ form input{
     cursor: pointer;
 }
 
+.row-2 .col-4{
+    padding-top: 100px;
+    margin-left: 270px;
+}
 
+.container h3{
+    font-size: 40px;
+    padding-top: 100px;
+    margin-left: 580px;
+}
 
+.row-pics ul{
+    border-radius: 10px;
+    margin-left: 185px;
+    padding-top: 200px;
+}
 
 
 
