@@ -25,7 +25,7 @@ body{
 }
 .userSignUp{
     width: 40%;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.801), rgba(0, 255, 234, 0.527));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.681), rgba(251, 255, 0, 0.607));
     margin-left: 5px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
